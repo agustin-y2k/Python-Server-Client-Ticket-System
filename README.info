@@ -1,0 +1,49 @@
+## Database
+
+A relational type database was used, more precisely MySQL.
+This decision is based on the fact that SQL databases are the most used by the developer community, it also has a large
+amount of documentation and threads in forums with solutions to problems that usually happen.
+
+## ORM
+
+SQLAlchemy was used because:
+
+-It is completely developed in Python.
+
+-Abstraction of the model without worrying about the database engine used.
+
+-SQLAlchemy helps prevent SQL injection vulnerabilities
+
+## Sockets
+
+-socket.AF_INET
+Enables communication between server and clients.
+AF_INTET It is related to the IPV4 protocol. When using AF_INET sockets, bind the server to "localhost".
+
+-socket.SOCK_STREAM
+STREAM is related to the TCP protocol.
+
+## getopt
+
+Module used to do operations by command. This module takes three arguments:
+
+- The first parameter is the sequence of arguments to parse. This usually comes from sys.argv[1:]
+
+- The second argument is the option definition string for single character options,
+  if one of the options requires an argument, the letter is followed by two points
+
+- The third argument, if used, should be a sequence of long option names. Long options can be more than a single character
+
+## JSON
+
+The json module was used so that the data exchanged between the server and the client was in JSON format.
+
+## multiprocessing
+
+The "multiprocessing" module was used to create the process in parallel to the execution of the system when the client
+demands the operation of exporting Tickets.
+
+## threading
+
+The "threading" module was used to create threads for each client that connects, so that the server handles
+independently to each of the clients.

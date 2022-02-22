@@ -1,0 +1,18 @@
+## Features to be implemented in future versions
+
+1- Notify connected clients when a client inserts a new ticket
+
+2- Implement the ticket deletion functionality.
+
+3- Dockerize the application
+
+4- Use a REST architecture so that the application has the possibility of implementing a Front End that improves the
+   user experience.
+
+5- In case of developing the application with a REST architecture, forms could be developed for entering and editing tickets.
+
+6- Implement security in access to tickets through sessions, granting different permissions according to the
+   user category (Admin, Basic user, etc), for example, only the person who created the ticket should be able
+   to edit the tickets associated with him, just as only an Admin should be able to approve a ticket.
+
+7- When exporting a ticket, the user should have the possibility to choose the name that the exported file will have.
