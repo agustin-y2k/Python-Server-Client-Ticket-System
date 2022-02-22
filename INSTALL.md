@@ -1,8 +1,8 @@
 ### 1- Clone repository
 
-    git clone
+    git clone https://github.com/agustin-y2k/Ticket-System.git
     
-    git clone
+    git clone https://gitlab.com/AgustinDeNucci/Ticket-System.git
 
 ### 2- Creation of virtual environment
 
