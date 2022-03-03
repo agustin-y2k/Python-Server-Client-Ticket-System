@@ -17,11 +17,15 @@
     pip3 install -r requirements.txt
 
 ### 5- Define environment variables for the connection with the Database
+#### Option 1 - Using terminal
 
     export DB_USER=username_db
     export DB_PASSWORD=password_db
     export DB_NAME=schema_name_db
 
+#### Option 2 - Using script
+
+    source env.sh
 ### 4- Create the database from terminal or database management tool
 
 ### 5- Create the model
